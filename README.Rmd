@@ -1,8 +1,15 @@
-# README
-Kevin Costello  
-04/05/2017  
+---
+title: "README"
+author: "Kevin Costello"
+date: "04/05/2017"
+output:
+        html_document:
+                keep_md: true
+---
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, results = "markdown")
+```
 
 ### Program run_analysis.R
 
